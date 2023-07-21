@@ -28,19 +28,19 @@ set -o pipefail
 
 # API key, see https://www.cloudflare.com/a/account/my-account,
 # incorrect api-key results in E_UNAUTH error
-CFKEY=
+CFKEY=d25e99b94530299a1a8dee5024d90fe086e94
 
 # Username, eg: user@example.com
-CFUSER=
+CFUSER=3146075540@qq.com
 
 # Zone name, eg: example.com
-CFZONE_NAME=
+CFZONE_NAME=iworld.best
 
 # Hostname to update, eg: homeserver.example.com
-CFRECORD_NAME=
+CFRECORD_NAME=mcsm.iworld.best
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
-CFRECORD_TYPE=A
+CFRECORD_TYPE=AAAA
 
 # Cloudflare TTL for record, between 120 and 86400 seconds
 CFTTL=120
